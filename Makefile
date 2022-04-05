@@ -3,9 +3,9 @@ CC = fasm
 
 build:
 	clear
-	$(CC) main.asm
-	ld main.o -o main
-	rm -rf main.o
+	$(CC) v2.asm
+	ld v2.o -o main
+	rm -rf v2.o
 run: 
 	./main
 
